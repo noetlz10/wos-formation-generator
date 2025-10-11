@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 // import { cookies } from "next/headers";
 
 const geistSans = localFont({
@@ -80,6 +81,7 @@ export default function RootLayout({
             ezstandalone.cmd = ezstandalone.cmd || [];
           `}
         </Script>
+        <GoogleAnalytics gaId="G-19BEXMBLEH" />
       </body>
     </html>
   );
