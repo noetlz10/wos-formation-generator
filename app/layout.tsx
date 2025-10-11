@@ -56,6 +56,9 @@ export default function RootLayout({
             />
             {/* {!adsDisabled && ( */}
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4333534257966219" crossOrigin="anonymous"></script>
+              <script async src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
+              <script async src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+              <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
             {/* )} */}
           </>
         )}
@@ -71,6 +74,12 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Script id="ezstandalone-init" strategy="beforeInteractive">
+          {`
+            window.ezstandalone = window.ezstandalone || {};
+            ezstandalone.cmd = ezstandalone.cmd || [];
+          `}
+        </Script>
       </body>
     </html>
   );
