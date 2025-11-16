@@ -519,7 +519,7 @@ export const HEROES: Hero[] = [
     {
         name: "Hervor",
         class: 0,
-        imagePath: "/2025/05/21074812/20250519%E8%8B%B1%E9%9B%84%E5%A4%B4%E5%83%8FHervor.jpg",
+        imagePath: "/2025/05/20250519英雄头像Hervor-1.jpg",
         rank: 10,
         gen: 12,
         rarity: 2,
@@ -530,7 +530,7 @@ export const HEROES: Hero[] = [
     {
         name: "Karol",
         class: 1,
-        imagePath: "/2025/05/21074624/20250519%E8%8B%B1%E9%9B%84%E5%A4%B4%E5%83%8Fkarol.jpg",
+        imagePath: "/2025/05/20250519英雄头像karol-1.jpg",
         rank: 10,
         gen: 12,
         rarity: 2
@@ -541,6 +541,33 @@ export const HEROES: Hero[] = [
         imagePath: "/2025/05/21074609/20250519%E8%8B%B1%E9%9B%84%E5%A4%B4%E5%83%8FLigeia.jpg",
         rank: 10,
         gen: 12,
+        rarity: 2
+    },
+    {
+        name: "Gisela",
+        class: 0,
+        imagePath: "/2025/08/20250519英雄头像gisela.jpg",
+        rank: 10,
+        gen: 13,
+        rarity: 2,
+        isRallyHero: true,
+        rallyHeroRank: 2,
+        rallyHeroRequiredStars: 4
+    },
+    {
+        name: "Flora",
+        class: 1,
+        imagePath: "/2025/08/20250519英雄头像Flora.jpg",
+        rank: 10,
+        gen: 13,
+        rarity: 2
+    },
+    {
+        name: "Vulcanus",
+        class: 2,
+        imagePath: "/2025/08/20250519英雄头像vulcanus.jpg",
+        rank: 10,
+        gen: 13,
         rarity: 2
     }
 ]
