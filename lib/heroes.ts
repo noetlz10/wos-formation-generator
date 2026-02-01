@@ -569,6 +569,65 @@ export const HEROES: Hero[] = [
         rank: 10,
         gen: 13,
         rarity: 2
+    },
+
+    {
+        name: "Elif",
+        class: 0,
+        imagePath: "/2026/01/艾丽芙.png",
+        rank: 10,
+        gen: 14,
+        rarity: 2,
+    },
+    {
+        name: "Dominic",
+        class: 1,
+        imagePath: "/2026/01/多米尼克.png",
+        rank: 10,
+        gen: 14,
+        rarity: 2,
+        isRallyHero: true,
+        rallyHeroRank: 1,
+        rallyHeroRequiredStars: 4,
+        isLeader: true,
+        leaderRank: 2,
+        leaderRequiredStars: 4
+    },
+    {
+        name: "Cara",
+        class: 2,
+        imagePath: "/2026/01/卡拉.png",
+        rank: 10,
+        gen: 14,
+        rarity: 2
+    },
+
+    {
+        name: "Hank",
+        class: 0,
+        imagePath: "/2026/01/汉克.png",
+        rank: 10,
+        gen: 15,
+        rarity: 2,
+    },
+    {
+        name: "Estrella",
+        class: 1,
+        imagePath: "/2026/01/艾斯黛拉（画家）.png",
+        rank: 10,
+        gen: 15,
+        rarity: 2
+    },
+    {
+        name: "Viveca",
+        class: 2,
+        imagePath: "/2026/01/维薇卡.png",
+        rank: 10,
+        gen: 15,
+        rarity: 2,
+        isLeader: true,
+        leaderRank: 1,
+        leaderRequiredStars: 4
     }
 ]
 
