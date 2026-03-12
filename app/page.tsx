@@ -10,8 +10,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Coffee, Github } from "lucide-react";
-
 export default function Home() {
   return (
     <div>
