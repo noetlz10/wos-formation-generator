@@ -39,10 +39,6 @@ export default function Home() {
             </CardFooter>
           </Card>
         </main>
-        <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-
-          </a>
-        </footer>
       </div>
     </div>
   );
